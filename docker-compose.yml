@@ -18,7 +18,7 @@ services:
     volumes:
       - .:/usr/local/sbin
       - /usr/local/sbin/node_modules
-    command: npm run dev
+    command: yarn run dev
     environment:
       DATABASE_URL: postgres://postgres@postgres/webapp_dev
       PORT: 5000

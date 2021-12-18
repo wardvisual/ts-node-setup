@@ -4,7 +4,7 @@ WORKDIR /usr/local/sbin
 
 COPY package.json ./
 
-RUN npm install
+RUN yarn install
 
 COPY prisma/schema.prisma ./prisma/
 
@@ -12,8 +12,8 @@ RUN npx prisma generate
 
 COPY . .
 
-RUN npm run build
+RUN yarn run build
 
 EXPOSE 5000
 
-CMD ["npm", "start"]
+CMD ["yarn", "start"]
