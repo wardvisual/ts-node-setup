@@ -14,7 +14,7 @@ services:
       - postgres
     ports:
       - 5000:5000
-      - 9229:9229 # <- e nables debugging for later use
+      - 9229:9229 # <- e nables debugging
     volumes:
       - .:/usr/local/sbin
       - /usr/local/sbin/node_modules
