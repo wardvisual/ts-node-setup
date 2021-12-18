@@ -4,8 +4,8 @@
     {
       "type": "node",
       "request": "attach",
-      "name": "Node (Docker)",
       "protocol": "inspector",
+      "name": "Node (Docker)",
       "port": 9229,
       "restart": true,
       "localRoot": "${workspaceFolder}/src",

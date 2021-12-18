@@ -1,8 +1,8 @@
 {
   "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
     "gruntfuggly.triggertaskonsave",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
     "prisma.prisma"
   ]
 }

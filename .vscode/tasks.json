@@ -2,9 +2,9 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "command": "docker-compose restart web",
       "label": "restart web",
       "type": "shell",
-      "command": "docker-compose restart web",
       "presentation": {
         "reveal": "never"
       }
